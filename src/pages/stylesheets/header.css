@@ -1,0 +1,25 @@
+.navigation {
+    background-color: rgb(230, 230, 250);
+    padding: 2px;
+    margin: auto;
+    height: 70px;
+    font-size: 2em;
+}
+.navigation > ul {
+    margin: 0;
+    padding: 15px;
+}
+.navigation > ul > li {
+    margin: 15px;
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+a:hover {
+    border-bottom: 2px solid darkslategrey;
+}
